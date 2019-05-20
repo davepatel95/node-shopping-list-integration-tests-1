@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: qX2CtO6i1/kBnFicfkYjqqpglBL8qgzLZ0gXOCPJmXqfT4bIdTQEk2PjMtdSwCmNQX1S3+P2KZ1eQlLUiy1x+0tiI/XtcQX70xmu87BkmhYc5sfyl3Uq+fr4uZhIP6Cx4ayCpdJBTiBt0BuUUI8pWzSLW1xvUALrY9karFCquIZ955dU/jJKIlSzmyh2FTKOOibYIvhVjr6W4FSUoUlhGh2A+PRR2idmduYRPaJcmwcINXWpGFZdxZqouSUjDUiCf4PEHRoHUFQQIwNPZ0DI9h+yM5k/9aGHDoBh1F+lKzLH0o2/1tmQu2KHB17f8ZNpeOE8WA4IZV0+mDCqHmYRW94o2NyLPQWh4RED4UXSnaTlIPI/6ialLiXgAyAOmWYsGmjGmkDrC2q/1gwKmQOv6JDGALRDiO1pW/eo8Tc+yZTD45TNXgCB772IDtLGNFtjsX4ZEotAnCs59RpYOqQJVPEGJGlnq37Dh7xLuLcfvE9b+GXYBxLomUyrokAHiJ8F2YpOYolUOmwAuFNjZBqjAEiOSbWJ7Hx3R00R/VroHIu/wxEPSPb638ZzfSH+PNKvHyfUMnE691pfXR1MauL46IgtmxCwFwwcNUvplYIXEXwqURIC0kegZzKcYgaKdNDbCO/rrmLFK/DMYLSIqUmUrsCGHoIKtDDD+zgORuh5g5Q=
+  app: gentle-inlet-20992
+  on:
+    repo: davepatel95/node-shopping-list-integration-tests-1
